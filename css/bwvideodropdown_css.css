@@ -1,0 +1,69 @@
+#bwvd_menu { 
+    width: 100%;
+    font-size: 15px;
+}
+
+.bwvd_button {
+    height: 50px;
+    padding: 5px 20px;
+    border-top: 1px solid #dedede;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.bwvd_button:hover {
+    background-color: #EEE;
+}
+
+.bwvd_button span {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: normal;
+    color: #464646;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+.bwvd_button span div {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.bwvd_button .alignright {
+    color: #D4D4D4;
+    font-size: 15px;
+    vertical-align: middle;
+}
+	
+.bwvd_content {
+	background-color: #FFF;
+	display: none;
+	padding: 10px 20px;
+}
+
+.section_last {
+    border-bottom: 1px solid #dedede;
+}
+
+#bwvd_list {
+    width: 100%;
+    max-width: 600px;
+}
+#bwvd_list a {
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+}
+#bwvd_list a li {
+    margin-bottom: 0px !important;
+    border-top: 1px solid #EBEBEB;
+    padding: 10px 10px;
+}
+#bwvd_list a li:hover {
+    background-color: #F5F5F5;
+}
+#bwvd_list_last {
+    border-bottom: 1px solid #EBEBEB;
+}
